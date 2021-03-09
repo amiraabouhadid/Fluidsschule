@@ -13,12 +13,35 @@
   height: 50%;
   margin-top: 50px;
 }
+
 .search-section-2 {
   background-image: url(pictures/pic2.jpeg);
   height: 60%;
   margin-top: 45px;
 }
+
 .ss-2,
 .ss-3 {
   opacity: 0.8;
+}
+
+.stats-cell-1 {
+  background-color: rgb(255, 102, 102);
+  height: 12.5rem;
+}
+.stats-cell-2 {
+  background-color: dimgrey;
+  height: 12.5rem;
+}
+.stats-cell-3 {
+  background-color: cornflowerblue;
+  height: 12.5rem;
+}
+
+.footer-mobile {
+  margin-top: 200px
+}
+
+.p-but-links {
+  margin-bottom: 40px;
 }
