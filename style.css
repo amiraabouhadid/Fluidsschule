@@ -29,10 +29,12 @@
   background-color: rgb(255, 102, 102);
   height: 12.5rem;
 }
+
 .stats-cell-2 {
   background-color: dimgrey;
   height: 12.5rem;
 }
+
 .stats-cell-3 {
   background-color: cornflowerblue;
   height: 12.5rem;
