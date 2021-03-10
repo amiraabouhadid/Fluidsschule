@@ -16,7 +16,7 @@ A homepage containing links to three other pages was created.
 
 ## Live Demo
 
-[Live Demo Link](https://amiraabouhadid.github.io/coursesdirectory/)
+[Live Demo Link](https://amiraabouhadid.github.io/coursesdir/)
 
 
 ## Getting Started
