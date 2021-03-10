@@ -18,10 +18,10 @@
 
   <header>
     <div class="nav-1 d-md-none container-fluid text-white fixed-top">
-      <div class="nav-1-top">
-        <h2 class='text-center'><i class="fas fa-location"></i>FluidsSchule</h2>
+      <div class="nav-1-top mt-4">
+        <h2 class='text-center'><a class='text-white' href="index.html"><i class="fas fa-location"></i>FluidsSchule</a></h2>
       </div>
-      <div class="nav-1-bottom d-flex justify-content-center mb-3">
+      <div class="nav-1-bottom d-flex justify-content-center mb-4">
         <a class='text-white' href="search.html"><i class="fas fa-search mr-5"></i></a>
         <a class='text-white' href="#"> <i class="fas fa-user mr-5"></i></a>
         <a class='text-white' href="#"> <i class="fas fa-wifi mr-5"></i></a>
@@ -32,7 +32,7 @@
     <div class="nav-2 d-none d-md-block container-fluid  text-white fixed-top">
       <div class="d-flex row flex-nowrap mt-2">
         <div class="nav-2-left ml-3">
-          <h4><i class="fas fa-location"></i>FluidsSchule</h4>
+          <h4><a class='text-white' href="index.html"><i class="fas fa-location"></i>FluidsSchule</a></h4>
         </div>
         <div class="nav-2-right ml-auto mr-3">
           <a class='text-white' href="search.html"><i class="fas fa-search mr-5"></i></a>
@@ -46,7 +46,7 @@
     <div class="nav-2 d-none d-lg-inline container-fluid  text-white fixed-top">
       <div class="d-flex row flex-nowrap mt-2">
         <div class="nav-2-left ml-3">
-          <h4><i class="fas fa-location"></i>FluidsSchule</h4>
+          <h4><a class='text-white' href="index.html"><i class="fas fa-location"></i>FluidsSchule</a></h4>
         </div>
         <div class="nav-2-right ml-auto mr-3">
           <i class="fas fa-search pr-1 "></i> <a class=' text-white  mr-5' href="search.html">SCHOOLS</a>
@@ -59,44 +59,124 @@
   </header>
   <main>
     <section>
-      <div class="search-drop container-fluid my-5 bg-light">
+      <div class="search-drop container-fluid mb-5 p-5 bg-light">
         <div class="row">
-
           <div class="s-top text-center mx-auto my-5">
-            <h5 class='font-weight-bolder text-secondary'>Filter by name, language, level:</h5>
+            <h5 class='font-weight-bolder text-secondary'>Filter by name, language, level and institute:</h5>
           </div>
         </div>
-        <div class="row">
-          <div class="s-bottom text-center mx-auto">
-            <div class="s-b-name">
-              <p class='small text-secondary font-weight-bolder'>COURSE NAME:*</p>
-            </div>
-            <div class="input-group">
-              <input type="text" class="form-control" aria-label="Text input with dropdown button">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div role="separator" class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
+        <div class="row container-fluid ">
+          <div class="s-bottom  d-flex row flex-wrap justify-content-center mx-auto align-items-center">
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>COURSE NAME:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">Fluid Dynamics</a>
+                      <a class="dropdown-item small" href="#">Turbulence</a>
+                      <a class="dropdown-item small" href="#">Laminar Flows</a>
+                      <a class="dropdown-item small" href="#">Computational Fluid Dynamics</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item small" href="#">All</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>LANGUAGE:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">English</a>
+                      <a class="dropdown-item small" href="#">اللغة العربية</a>
+                      <a class="dropdown-item small" href="#">Español</a>
+                      <a class="dropdown-item small" href="#">French</a>
+                      <a class="dropdown-item small" href="#">Dutch</a>
+                      <a class="dropdown-item small" href="#">中国人</a>
+                      <a class="dropdown-item small" href="#">日本語</a>
+                      <a class="dropdown-item small" href="#">हिन्दी</a>
+                      <a class="dropdown-item small" href="#">ไทย</a>
+                      <a class="dropdown-item small" href="#">kiswahili</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>LEVEL:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">Beginner</a>
+                      <a class="dropdown-item small" href="#">Intermediate</a>
+                      <a class="dropdown-item small" href="#">Advanced</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item small" href="#">All</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>INSTITUTE:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">Texas A&M</a>
+                      <a class="dropdown-item small" href="#">Georgia Tech</a>
+                      <a class="dropdown-item small" href="#">MIT</a>
+                      <a class="dropdown-item small" href="#">CalTech</a>
+                      <a class="dropdown-item small" href="#">TUM</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item small" href="#">All</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s-bottom-cell d-flex justify-content-center row col-sm-12 col-md-4 col-lg-2  mt-3">
+              <button class="text-white small border-0 mr-2 p-1 bg-primary rounded" type="button" name="button">Search</button>
+              <button class="text-white small border-0 p-1 bg-warning rounded" type="button" name="button"><i class="small text-white fas fa-edit"></i>Clear</button>
+            </div>
 
           </div>
-
         </div>
 
       </div>
     </section>
     <section>
-      <div class="container-fluid">
-        <h6 class=' text-dark font-weight-bolder text-center mx-auto mb-4'>Search Results Found 1 Course(s)</h6>
-        <div class="row ">
-          <div class="course-cell text-center mx-auto col-4 d-flex align-items-center row justify-content-center">
+      <div class="container-fluid mb-5 text-center mx-auto">
+        <h6 class=' text-dark font-weight-bolder mb-4'>Search Results Found 3 Course(s)</h6>
+        <div class="d-flex justify-content-center row">
+          <div class="course-cell  my-2 mx-2 col-sm-10 col-md-3 mr-2 d-flex align-items-center row justify-content-center">
             <a class='text-white font-weight-bolder ' href="result.html">FLUID DYNAMICS</a>
+          </div>
+          <div class="course-cell my-2 mx-2 col-sm-10 col-md-3 d-flex align-items-center row justify-content-center">
+            <a class='text-white font-weight-bolder ' href="result.html">TURBULENCE</a>
+          </div>
+          <div class="course-cell my-2 mx-2 col-sm-10 col-md-3 d-flex align-items-center row justify-content-center">
+            <a class='text-white font-weight-bolder ' href="result.html">LAMINAR FLOWS</a>
           </div>
         </div>
       </div>

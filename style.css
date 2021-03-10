@@ -1,6 +1,6 @@
 .nav-1 {
   background-color: rgb(255, 102, 102);
-  height: 5rem;
+  height: 8rem;
 }
 
 .nav-2,
@@ -11,7 +11,7 @@
 .search-section-1 {
   background-image: url(pictures/pic1.jpeg);
   height: 50%;
-  margin-top: 50px;
+  margin-top: 120px;
 }
 
 .search-section-2 {
@@ -49,10 +49,26 @@
 
 .course-cell {
   background-image: url(pictures/pic6.jpg);
-  height: 6rem;
-  width: 4rem;
+  height: 15rem;
 }
 
 .search-drop {
-  margin-top: 45px;
+  margin-top: 130px;
+}
+
+.m-header-fluid {
+  margin-top: 150px;
+}
+
+.m-header-fluid-2 {
+  margin-top: 150px;
+}
+
+.m-headbord {
+  border-style: inset;
+  border-color: lightgrey;
+}
+
+.m-head {
+  color: rgb(255, 102, 102);
 }
