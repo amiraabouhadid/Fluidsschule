@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Fluidsschule</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-1 d-md-none container-fluid text-white fixed-top">
+      <div class="nav-1-top mt-4">
+        <h2 class='text-center'><a class='text-white' href="index.html"><i class="fas fa-location"></i>FluidsSchule</a></h2>
+      </div>
+      <div class="nav-1-bottom d-flex justify-content-center mb-4">
+        <a class='text-white' href="search.html"><i class="fas fa-search mr-5"></i></a>
+        <a class='text-white' href="#"> <i class="fas fa-user mr-5"></i></a>
+        <a class='text-white' href="#"> <i class="fas fa-wifi mr-5"></i></a>
+        <a class='text-white' href="#"> <i class="fas fa-bars "></i></a>
+      </div>
+    </div>
+    <!--tablet  view-->
+    <div class="nav-2 d-none d-md-block container-fluid  text-white fixed-top">
+      <div class="d-flex row flex-nowrap mt-2">
+        <div class="nav-2-left ml-3">
+          <h4><a class='text-white' href="index.html"><i class="fas fa-location"></i>FluidsSchule</a></h4>
+        </div>
+        <div class="nav-2-right ml-auto mr-3">
+          <a class='text-white' href="search.html"><i class="fas fa-search mr-5"></i></a>
+          <a class='text-white' href="#"> <i class="fas fa-user mr-5"></i></a>
+          <a class='text-white' href="#"> <i class="fas fa-wifi mr-5"></i></a>
+          <a class='text-white' href="#"> <i class="fas fa-bars "></i></a>
+        </div>
+      </div>
+    </div>
+    <!--desktop  view-->
+    <div class="nav-2 d-none d-lg-inline container-fluid  text-white fixed-top">
+      <div class="d-flex row flex-nowrap mt-2">
+        <div class="nav-2-left ml-3">
+          <h4><a class='text-white' href="index.html"><i class="fas fa-location"></i>FluidsSchule</a></h4>
+        </div>
+        <div class="nav-2-right ml-auto mr-3">
+          <i class="fas fa-search pr-1 "></i> <a class=' text-white  mr-5' href="search.html">SCHOOLS</a>
+          <i class="fas fa-user pr-1 "></i><a class=' text-white  mr-5' href="#">ABOUT</a>
+          <i class="fas fa-wifi pr-1 "></i><a class=' text-white  mr-5' href="#">BLOG</a>
+          <i class="fas fa-bars pr-1  "></i><a class=' text-white  mr-5' href="#">MORE...</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="search-drop container-fluid mb-5 p-5 bg-light">
+        <div class="row">
+          <div class="s-top text-center mx-auto my-5">
+            <h5 class='font-weight-bolder text-secondary'>Filter by name, language, level and institute:</h5>
+          </div>
+        </div>
+        <div class="row container-fluid ">
+          <div class="s-bottom  d-flex row flex-wrap justify-content-center mx-auto align-items-center">
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>COURSE NAME:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">Fluid Dynamics</a>
+                      <a class="dropdown-item small" href="#">Turbulence</a>
+                      <a class="dropdown-item small" href="#">Laminar Flows</a>
+                      <a class="dropdown-item small" href="#">Computational Fluid Dynamics</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item small" href="#">All</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>LANGUAGE:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">English</a>
+                      <a class="dropdown-item small" href="#">اللغة العربية</a>
+                      <a class="dropdown-item small" href="#">Español</a>
+                      <a class="dropdown-item small" href="#">French</a>
+                      <a class="dropdown-item small" href="#">Dutch</a>
+                      <a class="dropdown-item small" href="#">中国人</a>
+                      <a class="dropdown-item small" href="#">日本語</a>
+                      <a class="dropdown-item small" href="#">हिन्दी</a>
+                      <a class="dropdown-item small" href="#">ไทย</a>
+                      <a class="dropdown-item small" href="#">kiswahili</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>LEVEL:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">Beginner</a>
+                      <a class="dropdown-item small" href="#">Intermediate</a>
+                      <a class="dropdown-item small" href="#">Advanced</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item small" href="#">All</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s-bottom-cell col-sm-12 col-md-4 col-lg-2 mx-2">
+              <div class="row">
+                <div class="small">
+                  <p class='font-weight-bolder small'>INSTITUTE:*</p>
+                </div>
+                <div class="input-group input-group-sm mr-2 mt-0 mb-3">
+                  <input type="text" class="form-control s-in small" aria-label="Text input with dropdown button">
+                  <div class="input-group-append  ">
+                    <button class="btn btn-outline-secondary small dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu small">
+                      <a class="dropdown-item small" href="#">Texas A&M</a>
+                      <a class="dropdown-item small" href="#">Georgia Tech</a>
+                      <a class="dropdown-item small" href="#">MIT</a>
+                      <a class="dropdown-item small" href="#">CalTech</a>
+                      <a class="dropdown-item small" href="#">TUM</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item small" href="#">All</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s-bottom-cell d-flex justify-content-center row col-sm-12 col-md-4 col-lg-2  mt-3">
+              <button class="text-white small border-0 mr-2 p-1 bg-primary rounded" type="button" name="button">Search</button>
+              <button class="text-white small border-0 p-1 bg-warning rounded" type="button" name="button"><i class="small text-white fas fa-edit"></i>Clear</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid mb-5 text-center mx-auto">
+        <h6 class=' text-dark font-weight-bolder mb-4'>Search Results Found 3 Course(s)</h6>
+        <div class="d-flex justify-content-center row">
+          <div class="course-cell  my-2 mx-2 col-sm-10 col-md-3 mr-2 d-flex align-items-center row justify-content-center">
+            <a class='text-white font-weight-bolder ' href="result.html">FLUID DYNAMICS</a>
+          </div>
+          <div class="course-cell my-2 mx-2 col-sm-10 col-md-3 d-flex align-items-center row justify-content-center">
+            <a class='text-white font-weight-bolder ' href="result.html">TURBULENCE</a>
+          </div>
+          <div class="course-cell my-2 mx-2 col-sm-10 col-md-3 d-flex align-items-center row justify-content-center">
+            <a class='text-white font-weight-bolder ' href="result.html">LAMINAR FLOWS</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid bg-dark d-none mt-5 d-md-inline position-absolute">
+      <div class="footer-1  ">
+        <div class="d-flex row flex-nowrap justify-content-around align-items-center  text-center mx-auto container border rounded-pill p-0 mt-3">
+          <a class="text-white small font-weight-bolder " href="index.html">HOME</a>
+          <a class="text-white small font-weight-bolder" href="search.html">SEARCH</a>
+          <a class="text-white small font-weight-bolder" href="#">ABOUT US</a>
+          <a class="text-white small font-weight-bolder" href="#">ADVERTISE</a>
+          <a class="text-white small font-weight-bolder" href="#"><i class="fas fa-location p-3 border rounded-circle border-light"></i></a>
+          <a class="text-white small font-weight-bolder" href="#">FACEBOOK</a>
+          <a class="text-white small font-weight-bolder" href="#">TWITTER</a>
+          <a class="text-white small font-weight-bolder" href="#">BLOG</a>
+          <a class="text-white small font-weight-bolder" href="#">GOOGLE</a>
+        </div>
+      </div>
+      <div class="footer-2 mb-5">
+        <div class="row justify-content-around p-2 my-2">
+          <div class="f-2-cell text-center col-4">
+            <h6 class='small text-white mb-4'>SUBSCRIBE</h6>
+            <div class="">
+              <input class='border-secondary bg-dark small rounded' type="text" id='sub' name="sub" value="" placeholder="abouhadid@gmail.com">
+              <button class='text-white bg-dark small rounded ' type="button" name="button">Send</button>
+            </div>
+          </div>
+          <div class="f-2-cell text-center col-4">
+            <h6 class='small text-white mb-4'>CONTACT</h6>
+            <p class='small text-white'>Feel free to contact us with any questions at <a class='text-danger' href="#">amiraabouhadid@gmail.com</a> </p>
+          </div>
+          <div class="f-2-cell text-center col-4">
+            <h6 class='small text-white mb-4'>ABOUT</h6>
+            <p class='small text-white'>This site was developed as the capstone project of Microverse HTML 2.0 Course, licensed by <a class='text-danger' href="https://creativecommons.org/licenses/by-nc/4.0/">creative commons </a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-mobile container-fluid bg-dark fixed-bottom border-top border-secondary">
+      <div class=" row ">
+        <div class="f-mobile-left col-4 text-secondary d-flex row flex-nowrap  align-items-center">
+          <i class="fab fa-facebook-f ml-3 mr-3"></i>
+          <i class="fab fa-instagram mr-3"></i>
+          <i class="fab fa-twitter mr-3"></i>
+          <i class="fab fa-youtube mr-3"></i>
+          <i class="fab fa-pinterest"></i>
+        </div>
+
+        <div class="f-mobile-right col-7 mr-0 ml-auto  mt-2 ">
+          <p class='small text-secondary'>Licensed by <a class='text-secondary' href="https://creativecommons.org/licenses/by-nc/4.0/"><u>creative commons</u> </a> </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

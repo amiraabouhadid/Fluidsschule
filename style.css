@@ -1,0 +1,74 @@
+.nav-1 {
+  background-color: rgb(255, 102, 102);
+  height: 8rem;
+}
+
+.nav-2,
+.ss-2-2-btn {
+  background-color: rgb(255, 102, 102);
+}
+
+.search-section-1 {
+  background-image: url(pictures/pic1.jpeg);
+  height: 50%;
+  margin-top: 120px;
+}
+
+.search-section-2 {
+  background-image: url(pictures/pic2.jpeg);
+  height: 60%;
+  margin-top: 45px;
+}
+
+.ss-2-trans {
+  background-color: rgba(240, 240, 240, 0.4);
+}
+
+.stats-cell-1 {
+  background-color: rgb(255, 102, 102);
+  height: 12.5rem;
+}
+
+.stats-cell-2 {
+  background-color: dimgrey;
+  height: 12.5rem;
+}
+
+.stats-cell-3 {
+  background-color: cornflowerblue;
+  height: 12.5rem;
+}
+
+.footer-mobile {
+  margin-top: 200px;
+}
+
+.p-but-links {
+  margin-bottom: 40px;
+}
+
+.course-cell {
+  background-image: url(pictures/pic6.jpg);
+  height: 15rem;
+}
+
+.search-drop {
+  margin-top: 130px;
+}
+
+.m-header-fluid {
+  margin-top: 150px;
+}
+
+.m-header-fluid-2 {
+  margin-top: 150px;
+}
+
+.m-headbord {
+  border-style: inset;
+  border-color: lightgrey;
+}
+
+.m-head {
+  color: rgb(255, 102, 102);
+}
