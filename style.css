@@ -47,11 +47,13 @@
 .p-but-links {
   margin-bottom: 40px;
 }
-.course-cell{
-  background-image:url(pictures/pic6.jpg);
-  height:6rem;
-  width:4rem;
+
+.course-cell {
+  background-image: url(pictures/pic6.jpg);
+  height: 6rem;
+  width: 4rem;
 }
-.search-drop{
-  margin-top:45px;
+
+.search-drop {
+  margin-top: 45px;
 }
