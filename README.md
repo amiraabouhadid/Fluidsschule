@@ -28,7 +28,10 @@ To get a local copy up and running follow these simple example steps.
 -Git
 
 ### Setup
-Clone repository from github to your local drive using git clone command.
+Clone repository from github to your local drive using git clone command:
+GitHub CLI: gh repo clone amiraabouhadid/coursesdir.
+SSH:git clone git@github.com:amiraabouhadid/coursesdir.git
+HTTPS:https://github.com/amiraabouhadid/coursesdir.git
 
 ### Install
 -Install Atom or Microsoft Visual Studio text editor to view the code on your local machine.
