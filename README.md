@@ -4,7 +4,7 @@
 
 We were asked to create a responsive school directory webpage with links to results and details pages using Bootsrap & CSS3.
 
-![Screenshot from 2021-03-10 13-39-13](https://user-images.githubusercontent.com/56790126/110623913-2ded1b00-81a6-11eb-81cf-cabed3c31333.png)
+![Screenshot from 2021-03-11 10-23-52](https://user-images.githubusercontent.com/56790126/110757380-fe94e780-8253-11eb-86d5-f3e399b399b6.png)
 
 A homepage containing links to three other pages was created.
 
@@ -23,23 +23,23 @@ A homepage containing links to three other pages was created.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
--HTML5 & CSS3 text editor
--GitHub
--Git
+- HTML5 & CSS3 text editor
+- GitHub
+- Git
 
 ### Setup
 Clone repository from github to your local drive using git clone command:
-GitHub CLI: gh repo clone amiraabouhadid/coursesdir.
-SSH:git clone git@github.com:amiraabouhadid/coursesdir.git
-HTTPS:git clone https://github.com/amiraabouhadid/coursesdir.git
+- GitHub CLI: gh repo clone amiraabouhadid/coursesdir.
+- SSH:git clone git@github.com:amiraabouhadid/coursesdir.git.
+- HTTPS:git clone https://github.com/amiraabouhadid/coursesdir.git.
 
 ### Install
--Install Atom or Microsoft Visual Studio text editor to view the code on your local machine.
--Install Git.
+- Install Atom or Microsoft Visual Studio text editor to view the code on your local machine.
+- Install Git.
 
 ### Deployment
--Open live-server from your text-editor to see the website.
--Use github pages to view from the Live Demo link above.
+- Open live-server from your text-editor to see the website.
+- Use github pages to view from the Live Demo link above.
 
 ## Authors
 
