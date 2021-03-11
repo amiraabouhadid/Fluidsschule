@@ -51,7 +51,7 @@ Clone repository from github to your local drive using git clone command.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/amiraabouhadid/coursesdir/issues).
 
 ## Show your support
 
