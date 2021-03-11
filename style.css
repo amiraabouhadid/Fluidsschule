@@ -2,6 +2,15 @@
   background-color:rgb(211,86,73);
   height: 8rem;
 }
+.mobile-header{
+  font-size:1.75rem;
+}
+.tablet-header{
+  font-size:1.5rem;
+}
+.desktop-header{
+  font-size:1.5rem;
+}
 
 .nav-2,
 .ss-2-2-btn {
@@ -39,12 +48,8 @@
   height: 12.5rem;
 }
 
-.footer-mobile {
-  margin-top: 200px;
-}
-
-.p-but-links {
-  margin-bottom: 40px;
+.footer-mobile{
+  margin-top:125px;
 }
 
 .course-cell {
