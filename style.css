@@ -1,20 +1,23 @@
 .nav-1 {
-  background-color:rgb(211,86,73);
+  background-color: rgb(211, 86, 73);
   height: 8rem;
 }
-.mobile-header{
-  font-size:1.75rem;
+
+.mobile-header {
+  font-size: 1.75rem;
 }
-.tablet-header{
-  font-size:1.5rem;
+
+.tablet-header {
+  font-size: 1.5rem;
 }
-.desktop-header{
-  font-size:1.5rem;
+
+.desktop-header {
+  font-size: 1.5rem;
 }
 
 .nav-2,
 .ss-2-2-btn {
-  background-color:rgb(211,86,73);
+  background-color: rgb(211, 86, 73);
 }
 
 .search-section-1 {
@@ -34,7 +37,7 @@
 }
 
 .stats-cell-1 {
-  background-color: rgb(211,86,73);
+  background-color: rgb(211, 86, 73);
   height: 12.5rem;
 }
 
@@ -48,8 +51,8 @@
   height: 12.5rem;
 }
 
-.footer-mobile{
-  margin-top:125px;
+.footer-mobile {
+  margin-top: 125px;
 }
 
 .course-cell {
@@ -75,5 +78,5 @@
 }
 
 .m-head {
-  color: rgb(211,86,73);
+  color: rgb(211, 86, 73);
 }
