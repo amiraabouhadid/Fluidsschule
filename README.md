@@ -51,7 +51,7 @@ Clone repository from github to your local drive using git clone command.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/amiraabouhadid/coursesdir/issues).
 
 ## Show your support
 
@@ -65,5 +65,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 This project is [creativecommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
