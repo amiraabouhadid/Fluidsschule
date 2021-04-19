@@ -16,7 +16,8 @@ A homepage containing links to three other pages was created.
 
 ## Live Demo
 
-[Live Demo Link](https://amiraabouhadid.github.io/coursesdir/)
+[Live Demo Link](https://amiraabouhadid.github.io/
+Fluidsschule/)
 
 
 ## Getting Started
@@ -29,9 +30,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 Clone repository from github to your local drive using git clone command:
-- GitHub CLI: gh repo clone amiraabouhadid/coursesdir.
-- SSH:git clone git@github.com:amiraabouhadid/coursesdir.git.
-- HTTPS:git clone https://github.com/amiraabouhadid/coursesdir.git.
+- GitHub CLI: gh repo clone amiraabouhadid/
+Fluidsschule.
+- SSH:git clone git@github.com:amiraabouhadid/
+Fluidsschule.git.
+- HTTPS:git clone https://github.com/amiraabouhadid/
+Fluidsschule.git.
 
 ### Install
 - Install Atom or Microsoft Visual Studio text editor to view the code on your local machine.
@@ -54,7 +58,8 @@ Clone repository from github to your local drive using git clone command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/amiraabouhadid/coursesdir/issues).
+Feel free to check the [issues page](https://github.com/amiraabouhadid/
+Fluidsschule/issues).
 
 ## Show your support
 
