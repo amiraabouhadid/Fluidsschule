@@ -2,7 +2,7 @@
 
 # HTML CAPSTONE: COURSES DIRECTORY
 
-We were asked to create a responsive school directory webpage with links to results and details pages using Bootsrap & CSS3.
+A responsive school directory webpage with links to results and details pages using Bootsrap & CSS3.
 
 ![Screenshot from 2021-03-11 10-23-52](https://user-images.githubusercontent.com/56790126/110757380-fe94e780-8253-11eb-86d5-f3e399b399b6.png)
 
